@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d00ca944.css",
+    "main.js": "/static/js/main.23720e62.js",
+    "static/js/787.5d86c2a1.chunk.js": "/static/js/787.5d86c2a1.chunk.js",
+    "static/media/kanye_west.jpg": "/static/media/kanye_west.8ae5b47e9a6f54dc270a.jpg",
+    "static/media/user_without_photo.png": "/static/media/user_without_photo.20d844db95d82a0849ec.png",
+    "static/media/album.jpg": "/static/media/album.aed3c198531ff80d4130.jpg",
+    "static/media/metallica.jpg": "/static/media/metallica.e77baa20721e731ff434.jpg",
+    "static/media/hans.jpg": "/static/media/hans.26489c706d243a20e37b.jpg",
+    "static/media/dua_lipa.jpg": "/static/media/dua_lipa.09ed48821211c323476f.jpg",
+    "static/media/adele.jpg": "/static/media/adele.8bade973f2d4b536ebdf.jpg",
+    "index.html": "/index.html",
+    "main.d00ca944.css.map": "/static/css/main.d00ca944.css.map",
+    "main.23720e62.js.map": "/static/js/main.23720e62.js.map",
+    "787.5d86c2a1.chunk.js.map": "/static/js/787.5d86c2a1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d00ca944.css",
+    "static/js/main.23720e62.js"
+  ]
+}
