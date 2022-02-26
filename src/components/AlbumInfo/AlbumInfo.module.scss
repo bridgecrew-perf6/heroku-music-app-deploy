@@ -1,0 +1,24 @@
+.album__info_root {
+    padding: 30px 50px 20px;
+    button {
+        margin-top: 20px;
+        color: rgb(2, 2, 2);
+        background-color: #6a4582;
+    }
+}
+
+.album__info_tracks {
+    margin-top: 20px;
+}
+
+.album__info_track {
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.album__close_button {
+   text-align: center;
+   &:hover {
+       transform: scale(1.3);
+   }
+}

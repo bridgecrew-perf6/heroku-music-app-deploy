@@ -1,0 +1,32 @@
+.new__releases_root {
+    margin: 0 auto;
+    width: 1000px;
+    min-height: 100%;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);
+    select {
+        width: 60px;
+        height: 20px;
+        border-radius: 5px;
+        text-align: center;
+        margin: 0 10px;
+        background-color: #dedede;
+    }
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: 900;
+    margin: 0 auto;
+    text-transform: uppercase;
+    color: #e3a4fd;
+}
+
+.new__releases_select {
+    margin: 20px 0 0px 50px;
+    color: #ffffff;
+    text-transform: uppercase;
+}

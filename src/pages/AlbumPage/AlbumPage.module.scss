@@ -1,0 +1,126 @@
+.album__page_root {
+    margin: 0 auto;
+    width: 1000px;
+    height: 100%;
+    padding-top: 60px;
+    background-color: #1c1c1c;
+    color: white;
+}
+
+.album__page_buttons {
+    margin-top: 20px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h3 {
+        margin-right: 10px;
+    }
+    button {
+        margin-right: 5px;
+    }
+}
+
+.album__page_header {
+    overflow: hidden;
+    height: 300px;
+    background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+    position: relative;
+    h1 {
+        width: 400px;
+        overflow: hidden;
+        color: white;
+        position: absolute;
+        top: 200px;
+        right: 20px;
+    }
+    img {
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
+        width: 200px;
+        height: 200px;
+    }
+}
+
+.album__page_tracks {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0px 40px;
+    height: 100vh;
+}
+
+.album__info_track {
+    &:nth-child(1) {
+        margin-top: 30px;
+    }
+    position: relative;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    &:nth-child(2n) {
+        background-color: #343434;
+    }
+    span {
+        width: 50px;
+        position: absolute;
+        left: 880px;
+    }
+}
+
+.album__page_loader {
+    margin: 0 auto;
+}
+
+.album__add_icon {
+    position: absolute;
+    top: 200px;
+    left: 280px;
+    color: red;
+}
+
+.album__add_text {
+    width: 180px;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.album__page_time {
+    position: absolute;
+    top: 235px;
+    left: 280px;
+}
+
+.album__add_track {
+    position: absolute;
+    right: 80px;
+    color: #345bcb;
+    cursor: pointer;
+}
+
+.album__page_limit {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #7a7a7a;
+    input {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 150px;
+        height: 35px;
+        text-align: center;
+        border-radius: 5px;
+        -webkit-box-shadow: 7px 7px 5px 0px #0f0f0f;
+        -moz-box-shadow:    7px 7px 5px 0px #111010;
+        box-shadow:         7px 7px 5px 0px #161616;
+    }
+}

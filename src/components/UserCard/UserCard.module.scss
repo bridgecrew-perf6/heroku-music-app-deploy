@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+.userCard__wrapper {
+    width: 400px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color: #ffff;
+    -webkit-box-shadow: 2px 2px 8px 0px rgba(50, 50, 50, 0.61);
+    -moz-box-shadow:    2px 2px 8px 0px rgba(50, 50, 50, 0.61);
+    box-shadow:         2px 2px 8px 0px rgba(50, 50, 50, 0.61);
+    border-radius: 5px;
+    button {
+        width: 100px;
+        height: 40px;
+        background-color: rgb(77, 105, 230);
+        color: white;
+        border-radius: 3px;
+        position: absolute;
+        bottom: 30px;
+    }
+}
+
+.user__card_icon {
+    margin-top: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    1px 1px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         1px 1px 5px 0px rgba(50, 50, 50, 0.75);
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.user__card_name {
+    margin-top: 20px;
+    font-weight: 900;
+}
+
+.user__card_status {
+    margin-top: 20px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+}
+
+@media (max-width: 1200px) {
+    .userCard__wrapper {
+        width: 350px;
+        
+    }
+}
+
+@media (max-width: 800px) {
+    .userCard__wrapper {
+        width: 260px;
+        
+    }
+}
